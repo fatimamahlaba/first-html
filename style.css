@@ -1,0 +1,32 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(https://picsum.photos/id/1/200/300);
+    background-size: cover;
+    background-position: center;
+}
+form,
+input,
+textarea,
+button{
+    background:chartreuse(0,0,0,0.35);
+    box-shadow: 0 8px 32px 0 black(31, 38 135 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    /* color: white; */
+    padding: 5% 10%;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
