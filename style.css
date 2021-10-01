@@ -1,13 +1,43 @@
+
+/* home page first page */
 *{
-margin:0;
-padding:0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  list next two each other*/
+li{
+    display: inline-block;
+    padding: 20px;
+}
+/*  box of content*/
+ul{
+    background-color: rgb(94, 80, 86);
+    padding: 10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    margin-left: 450px;
+    margin-right: 450px;
+
+}
+a{
+    text-decoration: none;
+    color: navy;
+    font-family: sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* hover in content */
+a:hover{
+    color: black';
 }
 body{
     height: 100vh;
     display: grid;
     place-items: center;
-    background-image: url(https://picsum.photos/id/1/200/300);
+    background-image: url(https://images.unsplash.com/photo-1559494007-9f5847c49d94?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVhY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-position: center;
 }
@@ -17,16 +47,15 @@ textarea,
 button{
     background:chartreuse(0,0,0,0.35);
     box-shadow: 0 8px 32px 0 black(31, 38 135 0.37);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
     border-radius: 10px;
     /* color: white; */
     padding: 5% 10%;
 
+    
 }
 
 form{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
