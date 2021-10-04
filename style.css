@@ -8,54 +8,66 @@
 /*  list next two each other*/
 li{
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
 }
 /*  box of content*/
 ul{
-    background-color: rgb(94, 80, 86);
+    background-color:white;
     padding: 10px;
     left: 0;
     right: 0;
     top: 0;
     position: fixed;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 500px;
+    margin-right: 500px;
 
 }
 a{
-    text-decoration: none;
-    color: navy;
+    text-decoration:none;
+    color: black;
     font-family: sans-serif;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 /* hover in content */
 a:hover{
-    color: black';
+    color: blueviolet;
 }
 body{
     height: 100vh;
     display: grid;
     place-items: center;
-    background-image: url(https://images.unsplash.com/photo-1559494007-9f5847c49d94?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVhY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1633298187530-494bcdd92731?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=835&q=80);
     background-position: center;
+    background-size: cover;
+}
+
+#pic1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 }
 form,
 input,
-textarea,
 button{
-    background:chartreuse(0,0,0,0.35);
-    box-shadow: 0 8px 32px 0 black(31, 38 135 0.37);
-    border-radius: 10px;
+    box-shadow: black;
+    border-radius: 100px;
     /* color: white; */
-    padding: 5% 10%;
-
-    
+    padding: 3% 10%; 
 }
 
 form{
-    display: flex;
+    margin: 100px;
+    padding: 0px;
+    border-radius: 10px;
+    display:inline-flex;
     flex-direction: column;
-    gap: 20px;
+    gap: none;
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    height: 10px;
+    margin-top: 5em;
 }
