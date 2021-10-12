@@ -17,7 +17,7 @@ body {
   position: relative;
   max-width: 999px;
   margin: 0 auto;
-  z-index: 1;
+  z-index: -1;
   
 }
 
@@ -75,9 +75,9 @@ body {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid silver;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent silver;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -89,9 +89,9 @@ body {
   width: 0;
   z-index: 2;
   left: 30px;
-  border: medium solid white;
+  border: medium solid silver;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent silver transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -102,9 +102,9 @@ body {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: silver;
   position: relative;
-  border-radius: 6px;
+  border-radius: 15px;
   animation-name: scale-in-hor-center ;
   animation-iteration-count:initial;
   animation-duration: 0.9s;
