@@ -1,11 +1,11 @@
 
 /* home page first page */
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-/*  list next two each other*/
+/*  list nav bar next two each other*/
 li{
     display: inline-block;
     padding: 15px;
@@ -27,72 +27,109 @@ a{/*text in bar*/
     padding-top: 50px;
     padding-bottom: 50px;
 }
-/* hover in content */
+/* hover in nav bar content */
 a:hover{
     color: blueviolet;
 }
 body{
-    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: cover;
+    height: 130vh;
     display: grid;
     place-items: center;
     background-position: center;
     background-size: cover;
 }
-
+/* about page */
 #pic1{
-    height: 500px;
+    height: 200px;
     width: 200px;
     border-radius: 50%;
-    position:absolute;
-    left: 100px;
-    top: 50px;
+    position:center;
 }
+/* home page */
 h1 {
     color:blue;
     font-family: verdana;
     font-size: 300%;
   
   }
-  p  {
-    color: red;
-    font-family: courier;
-    font-size: 100%;
-    margin: 300px;
-  }
+p{
+    font-size: 250%;
+    font-family: sans-serif;
+    color: blue;
+}
+
+  /* start of form */
   
 form,
-input,
-button{
-    box-shadow: black;
-    border-radius: 100px;
-    /* color: white; */
-    padding: 3% 10%; 
+input[type=text], select {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button {
+    transition-duration: 0.4s;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: blueviolet; /* Green */
+    color: white;
+  }
+  
+  div {
+    
+width: 40%;
+border-radius: 5px;
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 20px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 50px;
+ }
+.parent{
+text-align: center;
+
 }
 
 form{
-    margin: 100px;
+    width: 100%;
+    margin: 20px;
     padding: 50px;
-    border-radius: 10px;
+    border-radius: 0px;
     display:inline-flex;
     flex-direction: column;
-    gap: none;
 }
-
-table{
-    border-collapse: collapse;
-    width: 400px;
-    height: 10px;
-    margin-top: 5em;
-}
-
-  body{
+/* end of form */
+ /* about page */
+body{
     background-image: url(background-image.jpg);
   }
   img{
-      border-radius: 20%;
+      border-radius: 10%;
   }
   #head{
-      margin-top: 30px;
+      margin-top: 0px;
       font-family: sans-serif;
   }
   

@@ -4,14 +4,20 @@
 
 body {
   background-image: url(background-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: Helvetica, sans-serif;
 }
 
 /* The actual timeline (the vertical ruler) */
+
 .timeline {
   position: relative;
-  max-width: 1000px;
+  max-width: 999px;
   margin: 0 auto;
+  z-index: -1;
+  
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -19,9 +25,10 @@ body {
   content: '';
   position: absolute;
   width: 6px;
-  background-color:gray;
+  background-color: gray;
   top: 0;
   bottom: 0;
+  margin-bottom: 0px;
   left: 50%;
   margin-left: -3px;
 }
@@ -41,10 +48,10 @@ body {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
+  background-color: pink;
   border: 4px solid red;
   top: 15px;
-  border-radius: 10%;
+  border-radius: 50%;
   z-index: 1;
 }
 
@@ -94,9 +101,10 @@ body {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: greenyellow;
+  background-color: white;
   position: relative;
-  border-radius: 30px;
+  border-radius: 6px;
+  
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -130,4 +138,35 @@ body {
   .right {
   left: 0%;
   }
+}
+/*  list next two each other*/
+li{
+  display: inline-block;
+  padding: 15px;
+}
+/*  box of content bar on top*/
+ul{
+  background-color:white;
+  padding: 5px;
+  left: 0;
+  right: 0;
+  top: 0;
+  position:fixed;
+  margin: 0%;
+ 
+}
+a{/*text in bar*/
+  text-decoration:none;
+  color:black;
+  font-family: sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* hover in content */
+a:hover{
+  color: blueviolet;
+}
+.timeline-head{
+  margin-top: 80px;
+  text-align: center;
 }
