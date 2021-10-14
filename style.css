@@ -134,8 +134,24 @@ body{
   }
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+
   }
-  /* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+  
+  
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 1200px) {
+  .container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 0px;
+  }
+  .grid-item{
+    text-align: center;
+  }
+  }
+  
