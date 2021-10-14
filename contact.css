@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #contact_bg {
+    background-image: url(/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  li{
+    display: inline-block;
+    padding: 15px;
+}
+a{/*text in bar*/
+    text-decoration:none;
+    color:black;
+    font-family: sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* hover in nav bar content */
+a:hover{
+    color: blueviolet;
+}
+/*  box of content bar on top*/
+ul{
+    background-color:white;
+    padding: 5px;
+    left: 0;
+    right: 0;
+    top: 0;
+    position:fixed;
+}
+  a {
+    text-decoration: none !important;
+    color: black;
+  }
+  
+  #contactbg {
+    background-image: url("../img/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding-top: 65px;
+  }
+  #contact-head {
+    padding-bottom: 50px;
+    font-family: sans-serif;
+  }
+  #Form {
+    text-align: center;
+    background: rgba(82, 82, 82, 0.2);
+    box-shadow: 0 8px 32px 0 rgb(247, 247, 250);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    /* display: flex; */
+    margin-top: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+  
+  }
+  input:hover {
+    opacity: 0.6;
+  }
+  textarea:hover {
+    opacity: 0.6;
+  }
+  ::placeholder {
+    color: black;
+  }
+  textarea {
+    background-color: rgb(244, 248, 252);
+    opacity: 0.4;
+    border: solid;
+  }
+  .inputblock {
+    background-color: rgb(250, 251, 253);
+    opacity: 0.4;
+    border: solid;
+  }
+  .submitbutton {
+    background: #486e8d;
+    color: #fff;
+    border: 1px solid#eee;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px#eee;
+    text-shadow: none;
+    width: 70px;
+    height: 35px;
+  }
+  .submitbutton:hover {
+    background: #0289f0;
+    color: #fff;
+    border: 1px solid#eee;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px#eee;
+    text-shadow: none;
+  }
+  .resetbutton {
+    background: #486e8d;
+    color: #fff;
+    border: 1px solid#eee;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px#eee;
+    text-shadow: none;
+    width: 70px;
+    height: 35px;
+  }
+  .resetbutton:hover {
+    background: #0289f0;
+    color: #fff;
+    border: 1px solid#eee;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px#eee;
+    text-shadow: none;
+  }
+  input {
+    width: 80%;
+  }
+  #text_a {
+    width: 80%;
+  
+  }
+  #contact-head {
+    color: rgb(34, 5, 11);
+  }
+  @media only screen and (max-width:786px){
+    
+    #form{
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  }

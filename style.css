@@ -53,7 +53,8 @@ body{
 h1 {
     color:blue;
     font-family: verdana;
-    font-size: 300%;
+    font-size: 200%;
+    text-align: center;
   
   }
 p{
@@ -66,17 +67,19 @@ p{
   
 form,
 input[type=text], select {
-    width: 100%;
+    width: 80%;
     padding: 5px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   input[type=submit] {
-    width: 100%;
+    width: 80%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -84,10 +87,19 @@ input[type=text], select {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #message{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
   }
   button {
     transition-duration: 0.4s;
-    width: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   button:hover {
@@ -95,27 +107,23 @@ input[type=text], select {
     color: white;
   }
   
-  div {
-    
-width: 40%;
-border-radius: 5px;
-background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 20px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-padding: 50px;
- }
+  
 .parent{
-text-align: center;
+margin-top: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
 
 }
 
 form{
-    width: 100%;
-    margin: 20px;
-    padding: 50px;
+
     border-radius: 0px;
     display:inline-flex;
     flex-direction: column;
@@ -133,10 +141,6 @@ body{
       font-family: sans-serif;
   }
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-
-  }
-  
   
 .container {
   border-radius: 5px;
@@ -144,7 +148,18 @@ body{
   padding: 20px;
 }
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 786px) {
+  form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  input{
+    width: 80%;
+  }
+  button{
+    width: 80%;
+  }
   .container{
     display: grid;
     grid-template-columns: auto;
@@ -153,5 +168,5 @@ body{
   .grid-item{
     text-align: center;
   }
-  }
+}
   
