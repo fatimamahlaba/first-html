@@ -116,7 +116,11 @@ body {
   .timeline::after {
   left: 31px;
   }
-  
+  /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
   /* Full-width containers */
   .container {
   width: 100%;

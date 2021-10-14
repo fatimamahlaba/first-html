@@ -132,4 +132,10 @@ body{
       margin-top: 0px;
       font-family: sans-serif;
   }
-  
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  }
+  /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}

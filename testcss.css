@@ -100,3 +100,15 @@ body{
     text-align: center;
     margin: 15px; 
 }
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 700px) {
+  .container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 100px;
+  }
+  .grid-item{
+    text-align: center;
+  }
+  }
+  
